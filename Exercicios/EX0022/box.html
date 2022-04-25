@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+
+        /*
+        -margin: auto; = centralizar a box
+
+        -a ordem de short-hand é: top, right, bottom, left;
+        -quando as medidas forem iguais, informar um único valor;
+
+        -a ordem de short-hand deve ser, width, style, color;
+        */
+
+        h1 {
+            /*box-level*/
+
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+                        
+            border: 10px solid cornflowerblue;
+
+            padding: 10px;
+
+            margin: 10px;
+
+            outline: 5px dotted lightcoral;
+        }
+        a{
+            border: 5px solid lightsalmon;
+
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="https://www.youtube.com/watch?v=jtzBhKkUKXs"> links são exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

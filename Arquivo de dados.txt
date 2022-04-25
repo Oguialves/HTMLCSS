@@ -1,0 +1,2 @@
+Git - software de versão de gerenciamento de versões, para o pc.
+GitHub - Faz o backup na nuvem.
