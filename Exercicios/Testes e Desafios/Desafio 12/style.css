@@ -4,3 +4,23 @@ header{
     color: white;
     text-align: center;    
 }
+#branco{
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+#flor{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    height: 100vh;
+    }
+#flor p{
+    color: white;
+    background-color: transparent;
+    height: 400px;
+}
+#papel{
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    height: 100vh;
+}    
