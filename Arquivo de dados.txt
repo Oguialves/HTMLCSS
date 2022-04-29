@@ -1,2 +1,23 @@
 Git - software de versão de gerenciamento de versões, para o pc.
 GitHub - Faz o backup na nuvem.
+
+
+
+
+
+
+
+background-atachment: fixed; - o fundo fixa fixo e conteúdo rola.
+background-atachment: scroll; - o fundo rola junto com o conteudo.
+background-size: cover; - cobre toda o espaço da VH, adaptando a imagem a qualquer tamanho de tela.
+background-size: contain; mostra a imagem no tamanho total, mas cria espaço no fundo.
+
+shorthand de background:
+color > image > position > repeat > *size > attachment
+
+*background-size: não funciona na SH, tem que colocar uma linha só pra ela
+
+transfor: translate - movimenta a box em qualquer sentido + + (direita e baixo) - - (esquerda e cima)
+
+
+font-variant: small-caps; - deixa as letras maiusculas, mas com as primeiras maiores, dando a impressão de ser mais sutil
